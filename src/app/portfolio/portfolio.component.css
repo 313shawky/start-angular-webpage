@@ -1,0 +1,52 @@
+.decoration::after, .decoration::before{
+  background-color: #2c3e50;
+}
+
+.section-head h2, .decoration i{
+  color: #2c3e50;
+}
+
+.layer{
+  background-color: rgba(26, 188, 156, 0);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.layer i{
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.layer:hover i{
+  opacity: 1;
+}
+
+.layer:hover{
+  background-color: rgba(26, 188, 156, 0.8);
+}
+
+.modal{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-dialog{
+  animation: modal 0.5s;
+}
+
+.close{
+  border: none;
+  background-color: transparent;
+  color: #1abc9c;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.modal-footer button{
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+@keyframes modal {
+  0% {top: -50px;}
+  100% {top: 0;}
+}

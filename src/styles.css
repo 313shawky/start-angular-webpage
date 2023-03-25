@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  font-family: 'Montserrat', sans-serif;;
+}
+
+.section-head h2{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.decoration{
+  position: relative;
+  font-size: 30px;
+}
+
+.decoration::before{
+  content: '';
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 125px;
+  height: 4px;
+  background-color: #fff;
+  transform: translateX(-25%);
+}
+
+.decoration::after{
+  content: '';
+  border-radius: 20px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 125px;
+  height: 4px;
+  background-color: #fff;
+  transform: translateX(25%);
+}
+

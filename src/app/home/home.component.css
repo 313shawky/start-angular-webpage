@@ -1,0 +1,17 @@
+header{
+  background-color: #1abc9c;
+}
+
+.header-image{
+  margin-top: 50px;
+  width: 15rem;
+}
+
+.header-text h1{
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.header-text p{
+  font-size: 1.25rem;
+}

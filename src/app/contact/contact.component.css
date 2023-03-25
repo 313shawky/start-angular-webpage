@@ -1,0 +1,50 @@
+.decoration::after, .decoration::before{
+  background-color: #2c3e50;
+}
+
+.section-head h2, .decoration i{
+  color: #2c3e50;
+}
+
+
+input{
+  padding: 30px 0;
+  margin: 15px 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+}
+
+textarea{
+  margin: 15px 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+}
+
+::placeholder{
+  color: #555;
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+}
+
+.input-form{
+  width: 80%;
+}
+
+button{
+  width: fit-content;
+  padding: 20px;
+  background-color: #1abc9c;
+  transition: all 0.5s;
+}
+
+button:hover{
+  color: #fff;
+  background-color: #159a80;
+  border-color: #148f77;
+}
